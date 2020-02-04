@@ -10,7 +10,6 @@ def MergeSort(a):
         MergeSort(X)
         MergeSort(Y)
 
-
         i=0
         j=0
         k=0
