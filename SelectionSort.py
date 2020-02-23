@@ -14,9 +14,10 @@ def SelectionSort (a):
                 
                 j+=1
         
-        temp= a[i]
-        a[i]= a[min_idx]
-        a[min_idx]= temp
+        if(i!=min_idx):
+            temp= a[i]
+            a[i]= a[min_idx]
+            a[min_idx]= temp
 
     return a
 
